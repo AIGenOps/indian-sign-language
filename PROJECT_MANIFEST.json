@@ -1,0 +1,20 @@
+{
+  "project": "ISL Translator",
+  "version": "0.1.1",
+  "generated": "2026-09-27",
+  "last_dependency_review": "2026-09-27",
+  "model": {
+    "name": "Sanket - ISL Translator",
+    "source": "https://huggingface.co/ayush2635/sanket-isl-translator",
+    "license": "mit",
+    "license_verified": "2026-09-27",
+    "artifact": "artifacts/models/model_best.pth",
+    "artifact_size_bytes_approx": 1546188226,
+    "alternate_artifact": "artifacts/models/checkpoint_latest.pth",
+    "alternate_artifact_size_bytes_approx": 3941081190,
+    "binary_included": false,
+    "download_script": "scripts/download_sanket.py",
+    "public_source_repo_found": false,
+    "notes": "No public source/preprocessing repository found as of 2026-09-27; see MODEL_DOWNLOAD_STATUS.md."
+  }
+}

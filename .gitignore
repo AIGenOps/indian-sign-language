@@ -1,0 +1,37 @@
+# Python & Virtual Environments
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+
+# Large Model Weights and Checkpoints
+artifacts/models/*.pth
+artifacts/models/*.bin
+artifacts/models/*.safetensors
+*.pth
+*.bin
+
+# Datasets and Media Files (Raw and Processed)
+data/*
+!data/.gitkeep
+artifacts/dataset/
+*.mp4
+*.avi
+*.mov
+*.webm
+*.mkv
+*.tar.gz
+*.tar
+*.zip
+*.npy
+*.npz
+*.pose
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

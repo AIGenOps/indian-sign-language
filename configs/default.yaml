@@ -1,0 +1,19 @@
+application:
+  name: isl-translator
+  environment: development
+
+runtime:
+  target_fps: 15
+  max_buffer_seconds: 8
+  min_confidence: 0.70
+
+model:
+  provider: sanket
+  checkpoint: artifacts/models/model_best.pth
+
+evaluation:
+  signer_disjoint: true
+  metrics:
+    - wer
+    - bleu
+    - rouge_l

@@ -1,0 +1,15 @@
+{
+  "models": [
+    {
+      "name": "sanket",
+      "version": "baseline",
+      "status": "candidate",
+      "source": "https://huggingface.co/ayush2635/sanket-isl-translator",
+      "license": "mit",
+      "license_checked": "2026-09-27",
+      "artifact": "artifacts/models/model_best.pth",
+      "sha256": "03cda82d26ab7e6d0adc8718d41d072e5181aef380a33dca17f08d3bd7dae729",
+      "preprocessing_version": "UPSTREAM_PIN_REQUIRED_NO_PUBLIC_SOURCE_FOUND"
+    }
+  ]
+}

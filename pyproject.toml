@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=70", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "isl-translator"
+version = "0.1.0"
+description = "Production-oriented Indian Sign Language video-to-text translation system"
+requires-python = ">=3.11,<3.13"
+# Upper bound: mediapipe (pinned in requirements.txt for the Solutions-API
+# reason documented there) has no published wheels for Python 3.13 as of
+# 2026-09-27 and fails to build from source against the 3.13 C API. Raise
+# this once mediapipe publishes cp313 wheels.
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
